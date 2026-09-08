@@ -1,11 +1,17 @@
 #pragma once
 
-// Placeholder for Computer Graphics logic
+#include <GL/glut.h>
+
 class Renderer {
 public:
     Renderer() = default;
     ~Renderer() = default;
     
+    // Initialize OpenGL state (background color, depth testing)
     void Initialize();
-    void Draw();
+    
+    // Basic 3D Primitives required for the Maze project
+    static void DrawCube(float x, float y, float z, float size);
+    static void DrawFloor(float size);
 };
+
