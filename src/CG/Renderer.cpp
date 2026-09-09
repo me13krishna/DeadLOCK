@@ -34,7 +34,9 @@ void Renderer::DrawFloor(float size) {
     glEnd();
 }
 
-// Stub for DrawCube
+// Stub for DrawCube (not implemented yet per request)
 void Renderer::DrawCube(float x, float y, float z, float size) {
     // To be implemented when needed
+}
+
 }
