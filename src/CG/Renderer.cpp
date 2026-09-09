@@ -38,3 +38,5 @@ void Renderer::DrawFloor(float size) {
 void Renderer::DrawCube(float x, float y, float z, float size) {
     // To be implemented when needed
 }
+
+}
