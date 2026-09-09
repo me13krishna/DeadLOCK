@@ -17,10 +17,9 @@ set(ASM_SOURCES src/MP/math_utils.asm)
 # Add C++ source files
 set(CXX_SOURCES 
     src/main.cpp
-    # Uncomment and add files as you develop them
+    src/CG/Renderer.cpp
     # src/OOP/Game.cpp
     # src/DS/Maze.cpp
-    # src/CG/Renderer.cpp
 )
 
 add_executable(3DMazeGame ${CXX_SOURCES} ${ASM_SOURCES})
